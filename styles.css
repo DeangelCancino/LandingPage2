@@ -4,29 +4,79 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.header {
+.headercontainer {
     display: flex;
     background-color: #1f2937;
     height: 50px;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    width: 1000px;
     align-items: center;
 }
 .hName {
     font-size: 24px;
     color: #f9faf8;
-    padding: 16px;
 }
 .home, .hContent {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 16px;
+    padding-left: 16px;
 }
 .home {
     margin-left: auto;
 }
 
-img {
+.aboutmecontainer {
+    display: flex;
+    background-color: #1f2937;
+    height: 400px;
+    justify-content: center;
+}
+
+.aboutMe {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strong {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-bottom: 16px;
+}
+
+.brief {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 16px;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    border: solid 2px #3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.class1 {
     height: 150px;
     width: 150px;
     border: solid 2px #3882f6;
     border-radius: 16px;
 }
+
+.two {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 250px;
+    border: solid 2px #f9faf8;
+    border-radius: 16px;
+}
+
