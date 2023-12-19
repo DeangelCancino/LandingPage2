@@ -109,3 +109,33 @@ body{
     color: gray;
     padding-top: 16px;
 }
+
+.monycont {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.testimony {
+    width: 835px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.personal {
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 16px;
+    margin-left: auto;
+}
