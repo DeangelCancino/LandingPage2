@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    align-items: center;
+}
+.hName {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 16px;
+}
+.home, .hContent {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 16px;
+}
+.home {
+    margin-left: auto;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: solid 2px #3882f6;
+    border-radius: 16px;
+}
